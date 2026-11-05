@@ -1,0 +1,20 @@
+{
+  "base_rate": 0.1754473161033797,
+  "levels": {
+    "Logistic regression": 0.8,
+    "Gradient boosting": 0.25
+  },
+  "top_weights": {
+    "gap_fixed_smooth": 1.055,
+    "volatility_20": 0.91,
+    "gap_adaptive_smooth": -0.877,
+    "cusum_down": -0.497,
+    "return_60": -0.487,
+    "volatility_60": 0.457,
+    "adaptive_alpha": -0.39,
+    "fall_from_high_60": -0.381
+  },
+  "simulation_model_f1": 0.4991218226218226,
+  "simulation_rule_f1": 0.6267148672135211,
+  "simulation_level": 0.5
+}

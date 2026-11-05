@@ -1,0 +1,16 @@
+case,first,second,mean_difference,p_value
+A clean trends,Adaptive smoothing,Fixed smoothing,0.0009323870573870574,0.8249048793660386
+A clean trends,Adaptive window,Fixed window control,-0.00350883580643643,0.7613085085161131
+A clean trends,Adaptive smoothing,CUSUM,0.462804693924231,1.434933284647782e-34
+A clean trends,Adaptive window,CUSUM,0.44959805591999236,1.4346907787831536e-34
+A clean trends,Regression,CUSUM,-0.0883108489703816,5.956391991045311e-16
+B wild noise,Adaptive smoothing,Fixed smoothing,0.02362523767941725,7.923723438950386e-06
+B wild noise,Adaptive window,Fixed window control,-0.029752113600343518,0.0013706941335663483
+B wild noise,Adaptive smoothing,CUSUM,0.3859313825185847,4.1599266670963165e-34
+B wild noise,Adaptive window,CUSUM,0.34362095341156457,6.719930637345717e-34
+B wild noise,Regression,CUSUM,-0.012990524516750389,0.09511559634605384
+C relationship breaks,Adaptive smoothing,Fixed smoothing,-0.0009163878242724624,0.8860974345746429
+C relationship breaks,Adaptive window,Fixed window control,-0.004271535581997842,0.4374678030983645
+C relationship breaks,Adaptive smoothing,CUSUM,0.022550349716568663,0.054093657049908775
+C relationship breaks,Adaptive window,CUSUM,0.02794201476786164,0.028031977556697882
+C relationship breaks,Regression,CUSUM,0.051428089803764926,0.00012454598878302485

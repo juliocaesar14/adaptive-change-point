@@ -1,0 +1,30 @@
+{
+  "Fixed smoothing": {
+    "alpha": 0.3,
+    "delta": 0.07
+  },
+  "Adaptive smoothing": {
+    "alpha_max": 0.4,
+    "alpha_min": 0.05,
+    "delta": 0.05
+  },
+  "Fixed window control": {
+    "delta": 0.1,
+    "length": 10
+  },
+  "Adaptive window": {
+    "delta": 0.07,
+    "max_length": 40,
+    "min_length": 20,
+    "surprise": 2.5
+  },
+  "Regression": {
+    "length": 120,
+    "threshold": 3.0,
+    "top_k": 4
+  },
+  "CUSUM": {
+    "limit": 5.0,
+    "slack": 0.25
+  }
+}

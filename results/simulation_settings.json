@@ -1,0 +1,86 @@
+{
+  "A clean trends | Fixed smoothing": {
+    "alpha": 0.1,
+    "delta": 0.03
+  },
+  "A clean trends | Adaptive smoothing": {
+    "alpha_max": 0.1,
+    "alpha_min": 0.01,
+    "delta": 0.02
+  },
+  "A clean trends | Fixed window control": {
+    "delta": 0.07,
+    "length": 40
+  },
+  "A clean trends | Adaptive window": {
+    "delta": 0.07,
+    "max_length": 60,
+    "min_length": 20,
+    "surprise": 2.5
+  },
+  "A clean trends | Regression": {
+    "length": 250,
+    "threshold": 2.0,
+    "top_k": 2
+  },
+  "A clean trends | CUSUM": {
+    "limit": 10.0,
+    "slack": 0.25
+  },
+  "B wild noise | Fixed smoothing": {
+    "alpha": 0.1,
+    "delta": 0.03
+  },
+  "B wild noise | Adaptive smoothing": {
+    "alpha_max": 0.2,
+    "alpha_min": 0.01,
+    "delta": 0.05
+  },
+  "B wild noise | Fixed window control": {
+    "delta": 0.07,
+    "length": 60
+  },
+  "B wild noise | Adaptive window": {
+    "delta": 0.07,
+    "max_length": 40,
+    "min_length": 20,
+    "surprise": 3.0
+  },
+  "B wild noise | Regression": {
+    "length": 250,
+    "threshold": 2.0,
+    "top_k": 4
+  },
+  "B wild noise | CUSUM": {
+    "limit": 7.0,
+    "slack": 0.5
+  },
+  "C relationship breaks | Fixed smoothing": {
+    "alpha": 0.2,
+    "delta": 0.05
+  },
+  "C relationship breaks | Adaptive smoothing": {
+    "alpha_max": 0.1,
+    "alpha_min": 0.02,
+    "delta": 0.02
+  },
+  "C relationship breaks | Fixed window control": {
+    "delta": 0.05,
+    "length": 60
+  },
+  "C relationship breaks | Adaptive window": {
+    "delta": 0.05,
+    "max_length": 40,
+    "min_length": 20,
+    "surprise": 3.0
+  },
+  "C relationship breaks | Regression": {
+    "length": 250,
+    "threshold": 3.0,
+    "top_k": 2
+  },
+  "C relationship breaks | CUSUM": {
+    "limit": 4.0,
+    "slack": 0.5
+  }
+}
