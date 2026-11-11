@@ -171,10 +171,6 @@ notebooks/                machine learning notebook for Colab
 report/                   thesis report in LaTeX
 ```
 
-## How to explain it to the panel
-
-"Prices are trend plus noise. Separating them forces a trade off between speed and false alarms, and I can show that with a formula. Adaptive methods try to escape this by changing their settings as data arrives. I tested this fairly, first where the truth is known and then on the S and P 500, using settings chosen only from earlier years. Adapting did not reliably beat one good fixed setting. So the useful result is knowing when adapting helps, and how little it helped here, not simply that a complex method wins."
-
 ## Main references
 
 - Musaev, Grigoriev, Kolosov. Adaptive algorithms for change point detection in financial time series. AIMS Mathematics 9(12), 2024.
